@@ -6,8 +6,8 @@ const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
-const winston = require('winston');
 const { body, validationResult } = require('express-validator');
+const winston = require('winston');
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -36,8 +36,8 @@ class Question {
     this.question = question;
     this.options = options;
     this.answer = answer;
-    this.type = qtype;
     this.weight = weight;
+    this.type = qtype;
     this.source = source;
   }
 }
@@ -69,7 +69,7 @@ function readQuestionsFromFiles(directory) {
       const qtype = filename.split('.')[0];
       if (data[qtype]) {
         data[qtype].forEach(q => {
-          questions[qtype].push(new Question(q.question, q.responses || ['Option 1', 'Option 2', 'Option 3', 'Option 4'], q.answer, q.weight, qtype, filename));
+          questions[qtype].push(new Question(q.question, q.responses || ['Option 1', 'Option 2', 'Option 3', 'Option 4'], q.answer, q.weight || 1, qtype, filename));
         });
       }
     }
@@ -112,11 +112,11 @@ function generateQuiz(directory) {
   return new Quiz(quizQuestions, 0, makeup);
 }
 
-function scoreQuiz(answers, quizQuestions) {
-  let totalWeight = 0;
+function gradeQuiz(answers, quizQuestions) {
   let score = 0;
-
-  const loveLanguages = {
+  let loveLanguage = '';
+  let romanticType = '';
+  const loveLanguageScores = {
     'Words of Affirmation': 0,
     'Acts of Service': 0,
     'Receiving Gifts': 0,
@@ -124,36 +124,27 @@ function scoreQuiz(answers, quizQuestions) {
     'Physical Touch': 0
   };
 
-  const romanticTypes = {
-    'Romantic': 0,
-    'Realist': 0,
-    'Idealist': 0,
-    'Cynic': 0
-  };
-
-  for (let i = 0; i < quizQuestions.length; i++) {
-    const question = quizQuestions[i];
-    const answer = answers[i];
-
-    if (answer && answer === question.answer) {
+  quizQuestions.forEach((question, index) => {
+    if (answers[index] && answers[index] === question.answer) {
       score += question.weight;
-      loveLanguages[question.type] += question.weight;
-      romanticTypes[question.source] += question.weight;
+      loveLanguageScores[question.type] += question.weight;
     }
+  });
 
-    totalWeight += question.weight;
+  const maxLoveLanguageScore = Math.max(...Object.values(loveLanguageScores));
+  loveLanguage = Object.keys(loveLanguageScores).find(key => loveLanguageScores[key] === maxLoveLanguageScore);
+
+  if (score >= 90) {
+    romanticType = 'Hopeless Romantic';
+  } else if (score >= 70) {
+    romanticType = 'Realistic Romantic';
+  } else if (score >= 50) {
+    romanticType = 'Skeptical Romantic';
+  } else {
+    romanticType = 'Non-Romantic';
   }
 
-  const loveLanguage = Object.keys(loveLanguages).reduce((a, b) => loveLanguages[a] > loveLanguages[b] ? a : b);
-  const romanticType = Object.keys(romanticTypes).reduce((a, b) => romanticTypes[a] > romanticTypes[b] ? a : b);
-
-  const percentageScore = (score / totalWeight) * 100;
-
-  return {
-    score: percentageScore,
-    loveLanguage: loveLanguage,
-    romanticType: romanticType
-  };
+  return { score, loveLanguage, romanticType };
 }
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -167,7 +158,7 @@ app.get('/quiz', (req, res) => {
     const quiz = generateQuiz(folderPath);
     res.json(quiz.questions);
   } catch (error) {
-    logger.error(error.stack);
+    logger.error('Error generating quiz:', error.stack);
     res.status(500).json({ error: 'Failed to generate quiz' });
   }
 });
@@ -185,7 +176,7 @@ app.post('/quiz/:number', [
   const quizFile = path.join(__dirname, `quiz_${req.params.number}.json`);
   fs.writeFile(quizFile, JSON.stringify(req.body, null, 2), 'utf8', err => {
     if (err) {
-      logger.error(err.stack);
+      logger.error('Error updating quiz:', err.stack);
       res.status(500).json({ error: 'Failed to update quiz' });
     } else {
       res.json({ message: 'Quiz updated successfully' });
@@ -204,15 +195,20 @@ app.post('/submit-quiz', [
 
   const { name, answers } = req.body;
   const quiz = generateQuiz(folderPath);
-  const result = scoreQuiz(answers, quiz.questions);
+  const result = gradeQuiz(answers, quiz.questions);
   quizResults.push({ quizName: 'Romantic Quiz', score: result.score, loveLanguage: result.loveLanguage, romanticType: result.romanticType, userName: name, questions: quiz.questions, answers });
   res.cookie('quizResults', JSON.stringify(quizResults), { maxAge: 900000, httpOnly: true });
   res.json({ message: 'Quiz submitted successfully', score: result.score, loveLanguage: result.loveLanguage, romanticType: result.romanticType });
 });
 
 app.get('/results', (req, res) => {
-  const results = req.cookies.quizResults ? JSON.parse(req.cookies.quizResults) : [];
-  res.json(results);
+  try {
+    const results = req.cookies.quizResults ? JSON.parse(req.cookies.quizResults) : [];
+    res.json(results);
+  } catch (error) {
+    logger.error('Error retrieving results:', error.stack);
+    res.status(500).json({ error: 'Failed to retrieve results' });
+  }
 });
 
 const PORT = process.env.PORT || 3000;

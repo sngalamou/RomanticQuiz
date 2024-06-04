@@ -16,8 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const submitButton = document.getElementById('submit');
   const resultContainer = document.getElementById('result');
   const scoreElement = document.getElementById('score');
-  const loveLanguageElement = document.getElementById('loveLanguage');
-  const romanticTypeElement = document.getElementById('romanticType');
   const retakeButton = document.getElementById('retake-button');
   const compareButton = document.getElementById('compare-button');
   const comparisonContainer = document.getElementById('comparison');
@@ -41,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const ca = document.cookie.split(';');
     for (let i = 0; i < ca.length; i++) {
       let c = ca[i];
-      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
     }
     return null;
   }
@@ -111,10 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function showResult() {
-    try {
-      quizContainer.style.display = 'none';
-      resultContainer.style.display = 'block';
+    quizContainer.style.display = 'none';
+    resultContainer.style.display = 'block';
 
+    try {
       const response = await fetch('/submit-quiz', {
         method: 'POST',
         headers: {
@@ -124,8 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       const result = await response.json();
       scoreElement.innerText = `Score: ${result.score}`;
-      loveLanguageElement.innerText = `Love Language: ${result.loveLanguage}`;
-      romanticTypeElement.innerText = `Romantic Type: ${result.romanticType}`;
     } catch (error) {
       console.error('Error submitting quiz:', error);
     }
@@ -197,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       results.forEach((result, index) => {
         const resultDiv = document.createElement('div');
         resultDiv.classList.add('comparison-result');
-        resultDiv.innerHTML = `<h4>Quiz ${index + 1} - ${result.userName}</h4><p>Score: ${result.score}</p><p>Love Language: ${result.loveLanguage}</p><p>Romantic Type: ${result.romanticType}</p>`;
+        resultDiv.innerHTML = `<h4>Quiz ${index + 1} - ${result.userName}</h4><p>Score: ${result.score}</p>`;
         result.questions.forEach((question, qIndex) => {
           const answerDiv = document.createElement('div');
           answerDiv.innerHTML = `<p>Question ${qIndex + 1}: ${question.question}</p><p>Your Answer: ${result.answers[qIndex]}</p>`;
@@ -207,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       comparisonContainer.style.display = 'block';
     } catch (error) {
-      console.error('Error comparing scores:', error);
+      console.error('Error fetching results:', error);
     }
   });
 
