@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Step 7: Define the command to run the app
-CMD [ "node", "/app/app.js" ]
+CMD ["npm", "start"]
