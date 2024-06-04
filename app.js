@@ -1,11 +1,13 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const bodyParser = require('body-parser');
 
 const app = express();
-app.use(express.json());  // Use express middleware
+app.use(bodyParser.json());  // Use body-parser middleware
 
-const folderPath = path.join(__dirname, '..', 'json');  // Correct path to the JSON folder
+const folderPath = path.join(__dirname, 'json');  // Correct path to the JSON folder
+const quizResults = []; // List to store all quiz results
 
 class Question {
   constructor(question, options, answer, weight, qtype) {
@@ -98,6 +100,16 @@ function generateQuiz(directory) {
   return new Quiz(quizQuestions, 0, makeup);
 }
 
+function gradeQuiz(answers, quizQuestions) {
+  let score = 0;
+  for (let i = 0; i < quizQuestions.length; i++) {
+    if (answers[i] && answers[i] === quizQuestions[i].answer) {
+      score++;
+    }
+  }
+  return score;
+}
+
 app.use(express.static(path.join(__dirname, 'public')));  // Serve static files from 'public' folder
 
 app.get('/', (req, res) => {
@@ -124,5 +136,13 @@ app.post('/quiz/:number', (req, res) => {
   });
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.post('/submit-quiz', (req, res) => {
+  const { name, answers } = req.body;
+  const quiz = generateQuiz(folderPath);
+  const score = gradeQuiz(answers, quiz.questions);
+  quizResults.push({ quizName: 'Romantic Quiz', score, userName: name });
+  res.json({ message: 'Quiz submitted successfully', score });
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

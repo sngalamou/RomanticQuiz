@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.quiz-container {
+  display: none;
+}
+
+.question {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.result {
+  display: none;
+}
+
+.name-container {
+  text-align: center;
+  margin-bottom: 20px;
+}

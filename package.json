@@ -2,10 +2,9 @@
   "name": "romanticquiz",
   "version": "1.0.0",
   "description": "Romantic Quiz using questions in json",
-  "main": "app/app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node app/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "romantic",
@@ -18,7 +17,7 @@
     "node": "16.13.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.9.8",
     "body-parser": "^1.19.0"
   }
 }

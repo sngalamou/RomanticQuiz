@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romantic Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Romantic Quiz</h1>
+    <div class="name-container" id="name-container">
+      <label for="user-name">Enter your name:</label>
+      <input type="text" id="user-name" />
+      <button id="start-button">Start Quiz</button>
+    </div>
+    <div class="quiz-container" id="quiz-container">
+      <div class="question" id="question"></div>
+      <div class="options" id="options"></div>
+      <div class="button-container">
+        <button id="next-button">Next</button>
+      </div>
+    </div>
+    <div class="result" id="result">
+      <h2>Quiz Completed!</h2>
+      <p id="score"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+{
+    "questions": [
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: giving flowers, cooking a meal, writing a poem, planning a surprise trip.",
+        "responses": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a poem",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: stargazing, candlelight dinner, picnic, cooking together.",
+        "responses": [
+          "Stargazing",
+          "Candlelight dinner",
+          "Picnic",
+          "Cooking together"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: love letters, personalized gifts, jewelry, flowers.",
+        "responses": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: beach vacation, mountain retreat, city tour, countryside stay.",
+        "responses": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: verbal affirmations, physical touch, acts of service, receiving gifts.",
+        "responses": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: planning a surprise date, writing a love letter, giving a thoughtful gift, saying 'I love you'.",
+        "responses": [
+          "Planning a surprise date",
+          "Writing a love letter",
+          "Giving a thoughtful gift",
+          "Saying 'I love you'"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: dancing together, watching a romantic movie, having a candlelit dinner, going for a walk.",
+        "responses": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: a handwritten love letter, a surprise date, unexpected flowers, a small thoughtful gift.",
+        "responses": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: a tropical island, a European city, a mountain retreat, a countryside cottage.",
+        "responses": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: physical touch, words of affirmation, acts of service, giving gifts.",
+        "responses": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: stargazing, watching the sunset, having a picnic, taking a walk.",
+        "responses": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: giving flowers, cooking a meal, writing a love note, planning a surprise trip.",
+        "responses": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: candlelit dinners, romantic walks, couples massages, watching the sunset.",
+        "responses": [
+          "Candlelit dinners",
+          "Romantic walks",
+          "Couples massages",
+          "Watching the sunset"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: love letters, personalized gifts, jewelry, flowers.",
+        "responses": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: beach vacation, mountain retreat, city tour, countryside stay.",
+        "responses": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: verbal affirmations, physical touch, acts of service, receiving gifts.",
+        "responses": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: planning a surprise date, writing a love letter, giving a thoughtful gift, saying 'I love you'.",
+        "responses": [
+          "Planning a surprise date",
+          "Writing a love letter",
+          "Giving a thoughtful gift",
+          "Saying 'I love you'"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: dancing together, watching a romantic movie, having a candlelit dinner, going for a walk.",
+        "responses": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: a handwritten love letter, a surprise date, unexpected flowers, a small thoughtful gift.",
+        "responses": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: a tropical island, a European city, a mountain retreat, a countryside cottage.",
+        "responses": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: physical touch, words of affirmation, acts of service, giving gifts.",
+        "responses": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: stargazing, watching the sunset, having a picnic, taking a walk.",
+        "responses": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: giving flowers, cooking a meal, writing a love note, planning a surprise trip.",
+        "responses": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: candlelit dinners, romantic walks, couples massages, watching the sunset.",
+        "responses": [
+          "Candlelit dinners",
+          "Romantic walks",
+          "Couples massages",
+          "Watching the sunset"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: love letters, personalized gifts, jewelry, flowers.",
+        "responses": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: beach vacation, mountain retreat, city tour, countryside stay.",
+        "responses": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: verbal affirmations, physical touch, acts of service, receiving gifts.",
+        "responses": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: planning a surprise date, writing a love letter, giving a thoughtful gift, saying 'I love you'.",
+        "responses": [
+          "Planning a surprise date",
+          "Writing a love letter",
+          "Giving a thoughtful gift",
+          "Saying 'I love you'"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: dancing together, watching a romantic movie, having a candlelit dinner, going for a walk.",
+        "responses": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: a handwritten love letter, a surprise date, unexpected flowers, a small thoughtful gift.",
+        "responses": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: a tropical island, a European city, a mountain retreat, a countryside cottage.",
+        "responses": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: physical touch, words of affirmation, acts of service, giving gifts.",
+        "responses": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: stargazing, watching the sunset, having a picnic, taking a walk.",
+        "responses": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gestures from most to least romantic: giving flowers, cooking a meal, writing a love note, planning a surprise trip.",
+        "responses": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic activities from most to least enjoyable: candlelit dinners, romantic walks, couples massages, watching the sunset.",
+        "responses": [
+          "Candlelit dinners",
+          "Romantic walks",
+          "Couples massages",
+          "Watching the sunset"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic gifts from most to least meaningful: love letters, personalized gifts, jewelry, flowers.",
+        "responses": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic getaways from most to least appealing: beach vacation, mountain retreat, city tour, countryside stay.",
+        "responses": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Rank Order",
+        "question": "Rank the following romantic expressions from most to least appreciated: verbal affirmations, physical touch, acts of service, receiving gifts.",
+        "responses": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      }
+    ]
+  }
+  

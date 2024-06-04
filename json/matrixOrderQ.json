@@ -1,0 +1,685 @@
+{
+    "questions": [
+      {
+        "type": "Matrix Table",
+        "question": "Rate the importance of the following romantic gestures.",
+        "responses": [
+          "Very unimportant",
+          "Unimportant",
+          "Neutral",
+          "Important",
+          "Very important"
+        ],
+        "items": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Stargazing",
+          "Candlelight dinner",
+          "Picnic",
+          "Cooking together"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic gifts.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the appeal of the following romantic getaways.",
+        "responses": [
+          "Very unappealing",
+          "Unappealing",
+          "Neutral",
+          "Appealing",
+          "Very appealing"
+        ],
+        "items": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your preference for the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic gifts.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your interest in the following romantic getaways.",
+        "responses": [
+          "Very uninterested",
+          "Uninterested",
+          "Neutral",
+          "Interested",
+          "Very interested"
+        ],
+        "items": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic activities.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the importance of the following romantic gestures.",
+        "responses": [
+          "Very unimportant",
+          "Unimportant",
+          "Neutral",
+          "Important",
+          "Very important"
+        ],
+        "items": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Candlelit dinners",
+          "Romantic walks",
+          "Couples massages",
+          "Watching the sunset"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic gifts.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the appeal of the following romantic getaways.",
+        "responses": [
+          "Very unappealing",
+          "Unappealing",
+          "Neutral",
+          "Appealing",
+          "Very appealing"
+        ],
+        "items": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your preference for the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic gifts.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your interest in the following romantic getaways.",
+        "responses": [
+          "Very uninterested",
+          "Uninterested",
+          "Neutral",
+          "Interested",
+          "Very interested"
+        ],
+        "items": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic activities.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the importance of the following romantic gestures.",
+        "responses": [
+          "Very unimportant",
+          "Unimportant",
+          "Neutral",
+          "Important",
+          "Very important"
+        ],
+        "items": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Candlelit dinners",
+          "Romantic walks",
+          "Couples massages",
+          "Watching the sunset"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic gifts.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the appeal of the following romantic getaways.",
+        "responses": [
+          "Very unappealing",
+          "Unappealing",
+          "Neutral",
+          "Appealing",
+          "Very appealing"
+        ],
+        "items": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your preference for the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic gifts.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your interest in the following romantic getaways.",
+        "responses": [
+          "Very uninterested",
+          "Uninterested",
+          "Neutral",
+          "Interested",
+          "Very interested"
+        ],
+        "items": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic activities.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the importance of the following romantic gestures.",
+        "responses": [
+          "Very unimportant",
+          "Unimportant",
+          "Neutral",
+          "Important",
+          "Very important"
+        ],
+        "items": [
+          "Giving flowers",
+          "Cooking a meal",
+          "Writing a love note",
+          "Planning a surprise trip"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Candlelit dinners",
+          "Romantic walks",
+          "Couples massages",
+          "Watching the sunset"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic gifts.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Love letters",
+          "Personalized gifts",
+          "Jewelry",
+          "Flowers"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the appeal of the following romantic getaways.",
+        "responses": [
+          "Very unappealing",
+          "Unappealing",
+          "Neutral",
+          "Appealing",
+          "Very appealing"
+        ],
+        "items": [
+          "Beach vacation",
+          "Mountain retreat",
+          "City tour",
+          "Countryside stay"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Verbal affirmations",
+          "Physical touch",
+          "Acts of service",
+          "Receiving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your preference for the following romantic activities.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "Dancing together",
+          "Watching a romantic movie",
+          "Having a candlelit dinner",
+          "Going for a walk"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your enjoyment of the following romantic gifts.",
+        "responses": [
+          "Strongly dislike",
+          "Dislike",
+          "Neutral",
+          "Like",
+          "Strongly like"
+        ],
+        "items": [
+          "A handwritten love letter",
+          "A surprise date",
+          "Unexpected flowers",
+          "A small thoughtful gift"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your interest in the following romantic getaways.",
+        "responses": [
+          "Very uninterested",
+          "Uninterested",
+          "Neutral",
+          "Interested",
+          "Very interested"
+        ],
+        "items": [
+          "A tropical island",
+          "A European city",
+          "A mountain retreat",
+          "A countryside cottage"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate your appreciation of the following romantic expressions.",
+        "responses": [
+          "Strongly unappreciate",
+          "Unappreciate",
+          "Neutral",
+          "Appreciate",
+          "Strongly appreciate"
+        ],
+        "items": [
+          "Physical touch",
+          "Words of affirmation",
+          "Acts of service",
+          "Giving gifts"
+        ]
+      },
+      {
+        "type": "Matrix Table",
+        "question": "Rate the significance of the following romantic activities.",
+        "responses": [
+          "Very insignificant",
+          "Insignificant",
+          "Neutral",
+          "Significant",
+          "Very significant"
+        ],
+        "items": [
+          "Stargazing",
+          "Watching the sunset",
+          "Having a picnic",
+          "Taking a walk"
+        ]
+      }
+    ]
+  }
+  
