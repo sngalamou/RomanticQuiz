@@ -1,10 +1,9 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const bodyParser = require('body-parser');
 
 const app = express();
-app.use(bodyParser.json());  // Use body-parser middleware
+app.use(express.json());  // Use express middleware
 
 const folderPath = path.join(__dirname, '..', 'json');  // Correct path to the JSON folder
 
@@ -125,4 +124,5 @@ app.post('/quiz/:number', (req, res) => {
   });
 });
 
-app.listen(3000, () => console.log('Server started on port 3000'));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Server started on port ${port}`));
